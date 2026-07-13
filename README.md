@@ -1,8 +1,10 @@
 # export rare variants burden
 ```bash
+chmod 777 ./pgen2txt
+
 # exist: chr1.psam, chr1.pgen, chr1.pvar
-python pgen2txt.py -g chr1 -o ./ -s keep1.snpid -b -n PCSK9i
-python pgen2txt.py -g chr6 -o ./ -s keep6.snpid -b -n LPAi
+./pgen2txt -g /pmaster/shaoqi/data/WES_IMP_GRCh38/ukb_wes_imp_chr1 -s ../RVAS/pcsk9.snp -o ./ -b -n PCSK9
+./pgen2txt -g /pmaster/shaoqi/data/WES_IMP_GRCh38/ukb_wes_imp_chr6 -s ../RVAS/LPA.snp -o ./ -b -n LPA
 ```
 
 # replicate
