@@ -11,10 +11,10 @@ python replicate.py -g LPA-burden.txt,PCSK9-burden.txt -p lpa.score,ldl.sscore -
 ```
 
 # data format
-- First col of each file is used for merging.
-- Files of -g and -p have 2 col: eid and burden
+- First col of each file is used to merge.
+- Files of -g and -p have 2 col: eid and burden / eid and score
 - --assoc-file has covariates and phenotypes
-- variables of -res are used for adjusting population struction for genetic score
+- variables of -res are used to adjust population struction for genetic score
 - --keep: one col, no header, contains sample id
 - --markername: biomarkers corresponding to two files of -p or -g
 - --rvas, --score, --quant: perform which analysis
