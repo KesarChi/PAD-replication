@@ -2,13 +2,13 @@
 
 ###
 # @Author: Wanqing Yin && wanqingyin7@163.com
-# @Date: 2026-8-11 16:24
+# @Date: 2026-6-13 16:24
 # @LastEditors: Wanqing Yin && wanqingyin7@163.com
-# @LastEditTime: 2026-8-11 16:24
+# @LastEditTime: 2026-6-13 16:24
 # @FilePath: ~/Desktop/PAD/Scripts/
 # @Description: Institute: Beijing Institute Of Genomics, CAS.
 #
-# Copyright (c) 2024 by ${wanqingyin7@163.com}, All Rights Reserved.
+# Copyright (c) 2026 by ${wanqingyin7@163.com}, All Rights Reserved.
 ###
 
 options(stringsAsFactors = FALSE)
