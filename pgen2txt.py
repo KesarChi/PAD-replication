@@ -10,8 +10,6 @@ Copyright (c) 2024 by ${momiji0613@163.com}, All Rights Reserved.
 '''
 
 
-from turtle import st
-
 import pandas as pd
 import subprocess
 from multiprocessing import Pool
