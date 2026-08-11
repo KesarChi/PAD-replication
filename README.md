@@ -3,8 +3,8 @@
 chmod 777 ./pgen2txt
 
 # exist: chr1.psam, chr1.pgen, chr1.pvar
-./pgen2txt -g /pmaster/shaoqi/data/WES_IMP_GRCh38/ukb_wes_imp_chr1 -s ../RVAS/pcsk9.snp -o ./ -b -n PCSK9
-./pgen2txt -g /pmaster/shaoqi/data/WES_IMP_GRCh38/ukb_wes_imp_chr6 -s ../RVAS/LPA.snp -o ./ -b -n LPA
+./pgen2txt -g ukb_wes_imp_chr1 -s ../RVAS/pcsk9.snp -o ./ -b -n PCSK9
+./pgen2txt -g ukb_wes_imp_chr6 -s ../RVAS/LPA.snp -o ./ -b -n LPA
 ```
 
 # replicate
